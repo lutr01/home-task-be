@@ -1,0 +1,23 @@
+{
+  "name": "home-task-be",
+  "version": "1.0.0",
+  "description": "cypress with cucumber for be",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Lu",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^3.7.0",
+    "cypress-cucumber-preprocessor": "^1.16.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
