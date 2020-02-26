@@ -1,13 +1,13 @@
-# home-task-fe
+# home-task-be
 
-home-task-fe is a solution for the technical task FE part
+home-task-be is a solution for the technical task BE part
 
 ## Installation
 
 Clone or download the project 
 
 ```bash
-git clone https://github.com/lutr01/home-task-fe.git
+git clone https://github.com/lutr01/home-task-be.git
 ```
 
 install the npm (please make sure you have nodejs on your machine)
@@ -24,7 +24,7 @@ to run the tests in the headless mode, run
 npm run test
 ```
 
-to run the tests in the headed mode, run
+to run the tests in the headed mode(for BE it is not really worth it), run
 
 ```bash
 npm run test:open

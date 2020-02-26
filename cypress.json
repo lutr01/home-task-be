@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://www.tundra.com/search?q=*&c=USA​",
+  "baseUrl": "https://jsonplaceholder.typicode.com",
   "ignoreTestFiles": "*.js",
   "testFiles": "**/*.{feature, features}",
   "video": false
