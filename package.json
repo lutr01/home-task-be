@@ -1,7 +1,7 @@
 {
-  "name": "home-task-be",
+  "name": "home-task-fe",
   "version": "1.0.0",
-  "description": "cypress with cucumber for be",
+  "description": "cypress with cucumber for fe",
   "main": "index.js",
   "scripts": {
     "test": "cypress run --spec \"**/*.feature\"",
