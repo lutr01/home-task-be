@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run --spec \"**/*.feature\"",
-    "test:all": "cypress run --spec \"**/*.features\""
+    "test:open": "cypress open --spec \"**/*.feature\""
   },
   "repository": {
     "type": "git",
