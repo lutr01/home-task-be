@@ -24,8 +24,8 @@ to run the tests in the headless mode, run
 npm run test
 ```
 
-to run the tests in the headed mode, run
+to run the tests in the headed mode(for BE it is not really worth it), run
 
 ```bash
 npm run test:open
-```
+``` 

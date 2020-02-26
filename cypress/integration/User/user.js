@@ -4,8 +4,10 @@ import { validateUserEmail } from '../../fixtures/user/user-data/validation';
 import { getPostsForTheUser } from '../../fixtures/user/posts/get';
 import { validatePostField } from '../../fixtures/user/posts/validate';
 import { createValidPostForTheUser } from '../../fixtures/user/posts/create';
+import { getRandomNumberOf } from '../../fixtures/helpers/randomizer';
 
-const userID = Math.floor(Math.random() * 10) + 1
+const amountOfUsers = 10
+const userID = getRandomNumberOf(amountOfUsers)
 
 Then(`I get users data and verify users email format is correct`, () => {
   getUserData(userID).then(data => {
