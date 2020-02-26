@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://jsonplaceholder.typicode.com/​",
+  "baseUrl": "https://jsonplaceholder.typicode.com",
   "ignoreTestFiles": "*.js",
   "testFiles": "**/*.{feature, features}",
   "video": false

@@ -1,7 +1,5 @@
 Feature: User
 
-  I want to validate user email
-
   Scenario: Validation of user email
     Then I get users data and verify users email format is correct
 
